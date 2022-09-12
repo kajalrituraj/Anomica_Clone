@@ -1,6 +1,6 @@
-.nav{
+.nav a{
     background-color: blue;
 }
-.nav a:hover{
+.nav a span:hover{
     color:"white";
 }

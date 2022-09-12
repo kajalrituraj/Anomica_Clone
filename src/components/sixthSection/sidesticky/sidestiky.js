@@ -5,7 +5,7 @@ import style from "./sticky.module.css";
 
 const Sidecustomset = () => {
   return (
-    <div>
+    <div  >
       <Box sx={{ height: "100vh", width: "100vw", backgroundColor: "pink" }}>
         <Box
           sx={{
@@ -19,7 +19,7 @@ const Sidecustomset = () => {
             margin: "-89px 0 0",
             boxShadow: "0 6px 12px rgb(0 0 0 / 25%)",
           }}
-        >
+        ><div className={style.nav}>
           <a
             href=""
             style={{
@@ -29,10 +29,10 @@ const Sidecustomset = () => {
               textAlign: "center",
               lineHeight: "52px",
             }} 
-            className={style.nav}
+         
           >
             {" "}
-            S
+           <span>S</span> 
             <FeatherIcon icon="headphones" color="black" size="21" />
           </a>
           <a
@@ -43,9 +43,9 @@ const Sidecustomset = () => {
               width: "55px",
               textAlign: "center",
               lineHeight: "52px",
-            }}className={style.nav}
+            }}
           >
-            {" "}C
+            {" "} <span>C</span>
             <FeatherIcon icon="edit" color="black" size="21" />
           </a>
           <a
@@ -56,11 +56,11 @@ const Sidecustomset = () => {
               width: "55px",
               textAlign: "center",
               lineHeight: "52px",
-            }}className={style.nav}
+            }}
           >
-            {" "}B
+            {" "}<span>B</span>
             <FeatherIcon icon="shopping-cart" color="black" size="21" />
-          </a>
+          </a></div>
         </Box>
       </Box>
       <Box
