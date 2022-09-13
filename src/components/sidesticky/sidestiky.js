@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 import FeatherIcon from "feather-icons-react";
 import style from "./sticky.module.css";
+import { color } from "@mui/system";
 
 const Sidecustomset = () => {
   return (
@@ -29,13 +30,14 @@ const Sidecustomset = () => {
               textAlign: "center",
               lineHeight: "52px",
             }} 
-         
           >
             {" "}
            <span>S</span> 
             <FeatherIcon icon="headphones" color="black" size="21" />
           </a>
-          <a
+          </div>
+          <div className={style.nav}>
+          <a 
             href=""
             style={{
               display: "block",
@@ -43,11 +45,14 @@ const Sidecustomset = () => {
               width: "55px",
               textAlign: "center",
               lineHeight: "52px",
+             
             }}
           >
             {" "} <span>C</span>
             <FeatherIcon icon="edit" color="black" size="21" />
-          </a>
+          </a></div>
+          <div className={style.nav}>
+
           <a
             href=""
             style={{
@@ -66,7 +71,7 @@ const Sidecustomset = () => {
       <Box
         sx={{ height: "540px", width: "654px", backgroundColor: "red" }}
       ></Box>
-    </div>
+     </div>
   );
 };
 

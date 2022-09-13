@@ -3,7 +3,11 @@ import "./App.css";
 import TestimonialCard from "./components/sixthSection/TestimonialCard";
 import Testimonial from "./components/sixthSection/testimonial";
 import ConstantData from "./const";
-import Sidecustomset from "./components/sixthSection/sidesticky/sidestiky";
+import Sidecustomset from "./components/sidesticky/sidestiky";
+import AboutWork from "./components/thirdSec/aboutWork";
+import FourCard from "./components/fourthSec/fourCard";
+import Services from "./components/fourthSec/ourServices";
+
 
 function App() {
   return (
@@ -26,7 +30,12 @@ function App() {
         jobTitle={ConstantData.TestimonialCardData2.jobTitle}
       /> */}
       {/* <Testimonial /> */}
-      <Sidecustomset/>
+      {/* <Sidecustomset/> */}
+      {/* <AboutWork/> */}
+      {/* <FourCard/> */}
+      <Services/>
+
+    
     </>
   );
 }

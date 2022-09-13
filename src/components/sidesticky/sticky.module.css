@@ -1,0 +1,27 @@
+.nav a{
+    /* background-color: rgb(182, 235, 161); */
+    color:red; 
+    height :45px;
+    width: 45px;
+
+    
+}
+.nav a:hover{
+    background-color: yellow;
+}
+
+.nav a span{
+    border-radius: 6px;
+    background-color: #303060;
+    position: absolute;
+    right:150%;
+
+    transform-origin: right;
+    height: 45px;
+    width: 45px;
+    transform:translateY(-50%);
+}
+.nav a span:hover{
+    color:greenyellow;
+}
+/* .nav a span::before */
