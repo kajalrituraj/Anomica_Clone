@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import ServBI from "../Assets/serviceBI.png";
+import ServiceCard from "./ourServiceCard";
 
 const Services = () => {
   return (
@@ -58,6 +59,7 @@ const Services = () => {
               width: "1140px",
               margin: "5px 0px 5px 0px",
               color: "#fff",
+              position: "relative",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -72,22 +74,35 @@ const Services = () => {
             >
               We run all kinds of IT services
               <br />
-              with 20 years of <i>Experience</i><br/><Box
-              sx={{
-                borderTop: " solid #2d4a8a",
-                borderColor: " #fff",
-                borderWidth: "4px 4px 0px",
-                height: "4px",
-                width: "52px",
-                marginBottom: "32px",
-                textAlign:"center",
-                margin:0,
-              }}
-            ></Box>
+              with 20 years of <i>Experience</i>
+              <br />
+              <Box
+                sx={{
+                  borderTop: " solid #2d4a8a",
+                  borderColor: " #fff",
+                  borderWidth: "4px 4px 0px",
+                  height: "4px",
+                  width: "52px",
+                  marginBottom: "32px",
+                  textAlign: "center",
+                  margin: 0,
+                }}
+              ></Box>
             </Typography>
-            
           </Box>
-          
+          <Box
+            sx={{
+              paddingTop: "14px",
+              height: "308px",
+              width: "1170px",
+              display: "flex",
+              justifyContent: "space-between",
+            }}
+          >
+            <ServiceCard />
+            <ServiceCard />
+            <ServiceCard />
+          </Box>
         </Box>
       </Box>
     </Box>

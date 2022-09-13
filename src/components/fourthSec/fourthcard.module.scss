@@ -1,0 +1,26 @@
+.post {
+  &:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    display: block;
+    width: 360px;
+    padding: "40px 35px 20px";
+    height: 308px;
+    background-color: #2d4a8a;
+    opacity: 0.2;
+    transform-origin: 0 top 0;
+    transform: scaleY(0);
+    transition: all 0.55s cubic-bezier(0.68, 1.55, 0.265, 0.55) 0s;
+  }
+
+  &:hover {
+    .post-title {
+      color: #fff;
+    }
+    &:before {
+      transform: scaleX(1);
+    }
+  }
+}

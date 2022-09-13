@@ -1,11 +1,11 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import FeatherIcon from "feather-icons-react";
 import TC from "../Assets/TC.jpg";
+// import scss from "./fourthcard.module.scss";
 
 const FourCard = () => {
   return (
-    <Box
+    <Box 
       sx={{
         height: "195px",
         width: "100vw",

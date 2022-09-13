@@ -1,8 +1,6 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import FeatherIcon from "feather-icons-react";
 import Twofour from "../Assets/24h .png";
-
 const AboutWork = () => {
   return (
     <Box
